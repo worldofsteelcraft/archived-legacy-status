@@ -29,10 +29,10 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
     - name: Website
-      description: The main servers are located here.
+      description: The main website are located here.
       closed: false
     - name: Minecraft Server
-      description: 
+      description: The minecraft servers are located here
       closed: false
     - name: Other Services
       description: The other services of World of SteelCraft.
@@ -50,6 +50,7 @@ params:
       description: The web frontend for the application.
       category: Website
       link: https://worldofsteelcraft.tk
+      # partial: uptime/website
     - name: Website Beta
       description: The web frontend for the application.
       category: Website
