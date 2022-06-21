@@ -2,7 +2,7 @@
 title: Scheduled Maintenance
 date: 2022-06-21T12:00:00+08:00
 resolved: false
-severity: notice
+severity: down
 affected:
 - WoSC SMP Server
 section: issue
