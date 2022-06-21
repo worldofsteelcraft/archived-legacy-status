@@ -24,6 +24,21 @@ fields:
     display_utc: false
   label: Issue Date
   default: now
+- name: severity
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - notice
+    - down
+    - distrupted
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Severity
 - name: resolved
   type: boolean
   label: Resolved
@@ -63,20 +78,5 @@ fields:
 - name: pin
   type: boolean
   label: Pin
-- name: severity
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - notice
-    - down
-    - distrupted
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Severity
 pages:
 - content/issues/information.md
