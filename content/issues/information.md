@@ -1,6 +1,6 @@
 ---
 title: Scheduled Maintenance
-date: 2022-06-21T12:00:00+08:00
+date: 2022-06-22T12:00:00+08:00
 resolved: false
 severity: notice
 affected:
