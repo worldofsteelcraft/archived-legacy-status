@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
-webhook_url: https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/41d67658-b9dc-4dc1-af39-2b7a85cba12c
+webhook_url: https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/f09a9274-bdc7-4d62-9f58-3e7cc8de036e
 sections:
 - type: directory
   path: content
