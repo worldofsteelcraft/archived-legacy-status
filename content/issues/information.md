@@ -5,7 +5,6 @@ resolved: false
 severity: notice
 affected:
 - WoSC SMP Server
-- WoSC SMP Server
 section: issue
 pin: true
 informational: true
