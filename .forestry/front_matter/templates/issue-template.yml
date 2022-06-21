@@ -26,9 +26,9 @@ fields:
   default: now
 - name: severity
   type: select
-  default: []
+  default: notice
   config:
-    required: false
+    required: true
     options:
     - notice
     - down
