@@ -63,5 +63,20 @@ fields:
 - name: pin
   type: boolean
   label: Pin
+- name: severity
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - notice
+    - down
+    - distrupted
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Severity
 pages:
 - content/issues/information.md
