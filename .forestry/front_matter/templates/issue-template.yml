@@ -1,4 +1,65 @@
 ---
 label: Issue Template
 hide_body: false
-fields: []
+fields:
+- name: section
+  type: text
+  config:
+    required: true
+  label: Section
+  default: issue
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: true
+  label: Issue Title
+- name: date
+  type: datetime
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Issue Date
+  default: now
+- name: resolved
+  type: boolean
+  label: Resolved
+  default: false
+- name: resolvedWhen
+  type: datetime
+  label: Resolved Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  showOnly:
+    field: resolved
+    value: true
+  default: now
+- name: affected
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Main Website
+    - WoSC SMP Server
+    - WoSC Files
+    - WoSC Link Service 1
+    - WoSC Link Service 2
+  label: Affected Services
+- name: informational
+  type: boolean
+  label: Informational
+  hidden: false
+- name: pin
+  type: boolean
+  label: Pin
