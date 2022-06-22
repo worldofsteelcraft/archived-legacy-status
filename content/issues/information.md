@@ -7,7 +7,7 @@ affected:
 - WoSC SMP Server
 section: issue
 pin: true
-informational: true
+informational: false
 resolvedWhen: 2022-06-22T14:33:00+08:00
 
 ---
