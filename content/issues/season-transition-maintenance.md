@@ -10,5 +10,5 @@ severity = "notice"
 title = "Season Transition Maintenance"
 
 +++
-_Finished -_ **Maintenance is now done_! Season 11 has now begun!_**{{< track "2022-06-23 15:57:00" >}}  
+Finished - **Maintenance is now done! Season 11 has now begun!**{{< track "2022-06-23 15:57:00" >}}  
 Started - **Maintenance Started as continuation of the postponed maintenance yesterday** {{< track "2022-06-23 14:57:00" >}}
