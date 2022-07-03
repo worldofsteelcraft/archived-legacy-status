@@ -80,4 +80,5 @@ fields:
   label: Pin
 pages:
 - content/issues/information.md
+- content/issues/main-domain-expiry-issue.md
 - content/issues/season-transition-maintenance.md
