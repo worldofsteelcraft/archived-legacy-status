@@ -10,4 +10,4 @@ severity = "distrupted"
 title = "Main Domain Expiry Issue"
 
 +++
-**Issue Detected**-The issue starts with the domain expired because dp forgot to renew it. {{< track "2022-07-03 22:05:00" >}}
+**Issue Detected**-The issue starts with the domain expired because dp forgot to renew it.  Moving to our second domain is suggested. {{< track "2022-07-03 22:05:00" >}}
