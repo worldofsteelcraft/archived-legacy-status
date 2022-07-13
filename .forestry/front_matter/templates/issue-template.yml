@@ -81,4 +81,5 @@ fields:
 pages:
 - content/issues/information.md
 - content/issues/main-domain-expiry-issue.md
+- content/issues/mcbe-1.19.10-support.md
 - content/issues/season-transition-maintenance.md
