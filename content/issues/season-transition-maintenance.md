@@ -1,8 +1,6 @@
 +++
 affected = ["WoSC SMP Server"]
 date = 2022-06-23T06:57:12Z
-informational = false
-pin = false
 resolved = true
 resolvedWhen = 2022-06-23T07:57:12Z
 section = "issue"
