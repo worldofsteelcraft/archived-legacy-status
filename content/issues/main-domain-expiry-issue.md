@@ -1,8 +1,8 @@
 +++
 affected = ["WoSC Files", "WoSC SMP Server", "Main Website"]
 date = 2022-07-03T14:06:45Z
-informational = true
-pin = true
+informational = false
+pin = false
 resolved = true
 resolvedWhen = 2022-07-03T14:42:45Z
 section = "issue"
